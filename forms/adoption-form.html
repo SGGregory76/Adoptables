@@ -44,16 +44,35 @@
 
     <label for="card_id">Choose Your Adoptable</label>
     <select id="card_id" name="card_id" required>
-      <option value="" disabled selected>-- Select a Card --</option>
-      <option value="graffiti-greg">Graffiti Greg</option>
-      <option value="night-clerk-nina">Night Clerk Nina</option>
-      <!-- Add more options as needed -->
+      <option value="">Loading cards...</option>
     </select>
 
+    <input type="hidden" name="stripe_id" id="stripe_id" value="">
     <input type="hidden" name="form_type" value="adoption">
 
     <button type="submit">Submit Adoption Request</button>
   </form>
+
+  <script>
+    const availableCards = [
+      { id: "graffiti-greg", name: "Graffiti Greg" },
+      { id: "night-clerk-nina", name: "Night Clerk Nina" }
+      // Add more cards here as you expand
+    ];
+
+    const select = document.getElementById("card_id");
+    select.innerHTML = '<option value="" disabled selected>-- Select a Card --</option>';
+    availableCards.forEach(card => {
+      const opt = document.createElement("option");
+      opt.value = card.id;
+      opt.textContent = card.name;
+      select.appendChild(opt);
+    });
+
+    const params = new URLSearchParams(window.location.search);
+    if (params.has("card_id")) select.value = params.get("card_id");
+    if (params.has("stripe_id")) document.getElementById("stripe_id").value = params.get("stripe_id");
+  </script>
 
 </body>
 </html>
