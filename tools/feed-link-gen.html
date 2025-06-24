@@ -1,1 +1,27 @@
+<h2 style="text-align:center; font-family:sans-serif;">🔐 Feed Link Generator</h2>
+<div style="max-width:400px; margin:auto; font-family:sans-serif; padding:10px; border:1px solid #ccc; border-radius:10px;">
+  <label><strong>Card ID (e.g. graffiti-greg):</strong></label>
+  <input id="cardId" type="text" style="width:100%; padding:8px; margin:8px 0;"><br>
 
+  <label><strong>Secret Key:</strong></label>
+  <input id="secretKey" type="text" style="width:100%; padding:8px; margin:8px 0;"><br>
+
+  <button onclick="generateLink()" style="width:100%; padding:10px; background:#000; color:#fff; border:none; border-radius:5px;">Generate Link</button>
+
+  <p id="result" style="margin-top:16px; word-break:break-all;"></p>
+</div>
+
+<script>
+function generateLink() {
+  const card = document.getElementById("cardId").value.trim();
+  const key = document.getElementById("secretKey").value.trim();
+  const base = "https://collectcreatoradoptables.blogspot.com/p/feed-viewer.html";
+
+  if (card && key) {
+    const link = `${base}#card=${encodeURIComponent(card)}&key=${encodeURIComponent(key)}`;
+    document.getElementById("result").innerHTML = `<strong>Feed Link:</strong><br><a href="${link}" target="_blank">${link}</a>`;
+  } else {
+    document.getElementById("result").innerHTML = "<span style='color:red;'>Please enter both values.</span>";
+  }
+}
+</script>
