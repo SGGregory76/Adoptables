@@ -1,0 +1,9 @@
+# Adoptable Card: Template Character Name
+
+- **Card ID:** template-card-id
+- **Type:** Occupation
+- **Traits:** Loyal, Clever, Mischievous
+- **Status:** Available
+- **Rarity:** Common
+
+Replace this README with notes or lore about the character.
