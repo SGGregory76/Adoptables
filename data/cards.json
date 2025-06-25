@@ -1,1 +1,43 @@
+[
+  {
+    "id": "graffiti-greg",
+    "name": "Graffiti Greg",
+    "image_url": "https://raw.githubusercontent.com/SGGregory76/Adoptables/main/cards/name-card/GraffitiGreg_AdoptableCard_Under2MB.png",
+    "stripe_link": "https://buy.stripe.com/test_gregcard",
+    "traits": ["Urban", "Artistic", "Rebel"],
+    "rarity": "Common"
+  },
+  {
+    "id": "night-clerk-nina",
+    "name": "Night Clerk Nina",
+    "image_url": "https://raw.githubusercontent.com/SGGregory76/Adoptables/main/cards/name-card/8352c913-d24d-485f-a9b7-da8e9142560c.png",
+    "stripe_link": "https://buy.stripe.com/test_ninacard",
+    "traits": ["Nocturnal", "Observant", "Clerk"],
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "dockside-dealer",
+    "name": "Dockside Dealer",
+    "image_url": "https://raw.githubusercontent.com/SGGregory76/Adoptables/main/cards/name-card/dockside_dealer.png",
+    "stripe_link": "https://buy.stripe.com/test_dockcard",
+    "traits": ["Smuggler", "Waterfront", "Shady"],
+    "rarity": "Rare"
+  },
+  {
+    "id": "techie-tyke",
+    "name": "Techie Tyke",
+    "image_url": "https://raw.githubusercontent.com/SGGregory76/Adoptables/main/cards/name-card/techie_tike.png",
+    "stripe_link": "https://buy.stripe.com/test_techie",
+    "traits": ["Inventor", "Hacker", "Youth"],
+    "rarity": "Epic"
+  },
+  {
+    "id": "blackmarket-betty",
+    "name": "Blackmarket Betty",
+    "image_url": "https://raw.githubusercontent.com/SGGregory76/Adoptables/main/cards/name-card/blackmarket_betty.png",
+    "stripe_link": "https://buy.stripe.com/test_betty",
+    "traits": ["Fence", "Dealmaker", "Underground"],
+    "rarity": "Legendary"
+  }
+]
 
