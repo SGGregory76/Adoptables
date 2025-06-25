@@ -1,14 +1,13 @@
 {
-  "id": "template-card-id",
-  "name": "Template Character Name",
-  "status": "available",
-  "owner": "",
-  "secret_key": "",
-  "last_fed": "",
+  "id": "graffiti-greg",
+  "name": "Graffiti Greg",
+  "original_name": "Graffiti Greg",
+  "traits": ["Loyal", "Creative", "Loud"],
+  "rarity": "Common",
   "health": 100,
-  "rarity": "common",
-  "type": "occupation",
-  "traits": ["loyal", "clever", "mischievous"],
-  "image_url": "https://raw.githubusercontent.com/SGGregory76/Adoptables/main/cards/template-card-id/template-card-id.png"
+  "last_fed": "2025-06-24T00:00:00Z",
+  "stripe_purchase_id": "pi_1ExampleABC123xyz", 
+  "secret_key": "gk2d8wz",
+  "image_url": "https://raw.githubusercontent.com/SGGregory76/Bizzy-Bullets-Design/main/GraffitiGreg_AdoptableCard_Under2MB.png",
+  "adoption_certificate": "https://raw.githubusercontent.com/SGGregory76/Adoptables/main/docs/GraffitiGreg_Certificate.pdf"
 }
-
