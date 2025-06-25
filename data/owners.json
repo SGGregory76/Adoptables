@@ -2,6 +2,16 @@
   "graffiti-greg": {
     "owner": "Shane",
     "date": "2025-06-24",
+    "rarity": "Common"
+  },
+  "dockside-dealer": {
+    "owner": "Rico",
+    "date": "2025-06-20",
     "rarity": "Rare"
+  },
+  "blackmarket-betty": {
+    "owner": "Tasha",
+    "date": "2025-06-10",
+    "rarity": "Legendary"
   }
 }
