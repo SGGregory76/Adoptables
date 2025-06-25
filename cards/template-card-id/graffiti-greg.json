@@ -3,7 +3,6 @@
   "name": "Graffiti Greg",
   "image_url": "https://raw.githubusercontent.com/SGGregory76/Adoptables/main/cards/name-card/GraffitiGreg_AdoptableCard_Under2MB.png",
   "status": "adopted",
-  "secret_key": "stripe_purchase_id": "prod_TESTgraffitiGreg123"
-
+  "secret_key": "test-key-greg",
   "last_fed": "2025-06-25T00:00:00Z"
 }
