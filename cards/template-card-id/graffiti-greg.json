@@ -1,13 +1,10 @@
 {
   "id": "graffiti-greg",
   "name": "Graffiti Greg",
-  "original_name": "Graffiti Greg",
-  "traits": ["Loyal", "Creative", "Loud"],
-  "rarity": "Common",
-  "health": 100,
-  "last_fed": "2025-06-24T00:00:00Z",
-  "stripe_purchase_id": "pi_1ExampleABC123xyz", 
-  "secret_key": "gk2d8wz",
-  "image_url": "https://raw.githubusercontent.com/SGGregory76/Bizzy-Bullets-Design/main/GraffitiGreg_AdoptableCard_Under2MB.png",
-  "adoption_certificate": "https://raw.githubusercontent.com/SGGregory76/Adoptables/main/docs/GraffitiGreg_Certificate.pdf"
+  "image_url": "https://raw.githubusercontent.com/SGGregory76/Adoptables/main/images/GraffitiGreg_AdoptableCard_Under2MB.png",
+  "traits": ["Spray Artist", "Night Owl", "Urban Camo"],
+  "rarity": "Rare",
+  "last_fed": "2025-06-22T12:00:00Z",
+  "stripe_purchase_id": "prod_TESTgraffitiGreg123",
+  "secret_key": "f3edgR3gg-s3cret-key-92xL"
 }
